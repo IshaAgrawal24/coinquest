@@ -1,0 +1,51 @@
+.app-stage {
+  padding: 6%;
+}
+
+.app-stage__options {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-stage__options > * {
+  padding: 2% 6%;
+  border: none;
+  background-color: #292929;
+  color: #999;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.align-content {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  column-gap: 3px;
+}
+
+.app-stage__options button span {
+  margin-left: 2%;
+}
+
+.app-stage__play {
+  margin-top: 12%;
+}
+
+.app-stage__play button {
+  cursor: pointer;
+  width: 100%;
+  padding: 4%;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+  background-image: linear-gradient(
+    225deg,
+    #77ffa8 0%,
+    #ffe081 33%,
+    #ffad8e 68%,
+    #a592ff 100%
+  );
+  border: none;
+  border-radius: 5px;
+}
