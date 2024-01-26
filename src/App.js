@@ -11,7 +11,7 @@ function App() {
     <div className="app-main">
       <div className="app-container">
         <Stage selectStageFunc={selectStageFunc} />
-        <section className="app-game">{selectStage}</section>
+        <section className="app-game">Stage : {selectStage}</section>
       </div>
     </div>
   );
